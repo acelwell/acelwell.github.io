@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>A Lite Text Editor</title>
+    <link rel="stylesheet" href="../css/textEditor.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Exo">
+    <style>
+      body {
+        font-family: 'Exo', serif;
+      }
+    </style>
+
+    <script src="../scripts/textEditor.js">
+
+    </script>
+  </head>
+  <body>
+
+    <header>
+      <div class="navBar">
+        <a href="../index.html">Home</a>
+        <a href="aboutme.html">About Me</a>
+        <a href="resume.html">Resume</a>
+        <!-- <a href="games.html">Games!</a> -->
+        <a href="projects.html">Projects</a>
+        <a href="textEditor.html">Editor</a>
+      </div>
+    </header>
+
+    <p>
+      You weren't supposed to find this page yet, it's still under construction.  Eventually this will be a live text editor that can be veiwed by multiple people simultaneously, (like google docs),
+      at least that's the hope. I'm sure I'll figure it out eventually. Until then, you are free to use it how you see fit. It won't save anything so don't put anything important here! :)
+    </p>
+
+    <br><br><br>
+
+    <p>Go ahead an type what you need to here!</p>
+
+    <br><br><br>
+
+    <div class="editor">
+      <textarea class="te" name="editor" rows="42" cols="1" onkeyup="addClosing(event)"></textarea>
+    </div>
+
+  </body>
+</html>

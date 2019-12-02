@@ -1,0 +1,52 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+header > h1
+{
+  text-align: center;
+  padding: 17px;
+}
+
+header > h1 > a
+{
+  text-decoration: none;
+}
+
+.navBar
+{
+
+  text-align: center;
+  background-color: #181e1d;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navBar > a
+{
+  padding: 17px;
+  font-size: 17px;
+
+  border-color: white;
+  color: white;
+
+  text-decoration: none;
+}
+
+.navBar a:hover
+{
+  background-color: white;
+  color: #084435;
+}
+
+
+
+body
+{
+  background-image: linear-gradient(#00f1bd, white);
+  background-repeat: no-repeat;
+}

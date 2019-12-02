@@ -1,0 +1,64 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navBar
+{
+
+  text-align: center;
+  background-color: #181e1d;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navBar > a
+{
+  padding: 17px;
+  font-size: 17px;
+
+  border-color: white;
+  color: white;
+
+  text-decoration: none;
+}
+
+.navBar a:hover
+{
+  background-color: white;
+  color: #084435;
+}
+
+body
+{
+  background-image: linear-gradient(#17332c, white);
+  background-repeat: no-repeat;
+}
+
+
+
+header > h1
+{
+  padding: 17px;
+  text-align: center;
+  color: #aefce8;
+}
+
+.resume
+{
+  text-align: center;
+  color: #aefce8;
+  padding: 17px;
+}
+
+.resume > p
+{
+  padding-bottom: 34px;
+}
+
+.resume > p > a
+{
+  text-decoration: none;
+}
