@@ -18,27 +18,27 @@ class Drying extends React.Component
                 <div className="container">
                     <button style={this.getStyle(5)}
                      onClick={this.props.updateList.bind(this, this.props.symbols[5].id)}>
-                        <img src={"../pictures/drying/dry_1.png"} alt="" />
+                        <img src={"../../things/drying/dry_1.png"} alt="" />
                     </button>
                     
                     <button style={this.getStyle(6)}
                      onClick={this.props.updateList.bind(this, this.props.symbols[6].id)}>
-                        <img src={"../pictures/drying/dry_2.png"} alt="" />
+                        <img src={"../../things/drying/dry_2.png"} alt="" />
                     </button>
 
                     <button style={this.getStyle(7)}
                      onClick={this.props.updateList.bind(this, this.props.symbols[7].id)}>
-                        <img src={"../pictures/drying/dry_3.png"} alt="" />
+                        <img src={"../../things/drying/dry_3.png"} alt="" />
                     </button>
 
                     <button style={this.getStyle(8)}
                      onClick={this.props.updateList.bind(this, this.props.symbols[8].id)}>
-                        <img src={"../pictures/drying/dry_4.png"} alt="" />
+                        <img src={"../../things/drying/dry_4.png"} alt="" />
                     </button>
 
                     <button style={this.getStyle(9)}
                      onClick={this.props.updateList.bind(this, this.props.symbols[9].id)}>
-                        <img src={"../pictures/drying/dry_5.png"} alt="" />
+                        <img src={"../../things/drying/dry_5.png"} alt="" />
                     </button>
     
                 </div>
