@@ -1,7 +1,7 @@
 'use strict';
 // import React from 'react';
 // import ReactDOM from 'react-dom';
-import '../css/homepage.css';
+// import '../css/homepage.css';
 import App from './App.js';
 // import * as serviceWorker from './serviceWorker';
 
