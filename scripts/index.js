@@ -2,7 +2,7 @@
 // import React from 'react';
 // import ReactDOM from 'react-dom';
 // import './index.css';
-import {App} from './App.js';
+import App from './App.js';
 // import * as serviceWorker from './serviceWorker';
 
 // ReactDOM.render(<App />, document.getElementById('root'));
@@ -14,7 +14,7 @@ import {App} from './App.js';
 
 
 
-const e = React.createElement;
+// 'use strict';
 
 class LikeButton extends React.Component {
   constructor(props) {
@@ -27,13 +27,13 @@ class LikeButton extends React.Component {
       return 'You liked this.';
     }
 
-    return e(
-      'button',
-      { onClick: () => this.setState({ liked: true }) },
-      'Like'
+    return (
+      <button onClick={() => this.setState({ liked: true }) }>
+        Like
+      </button>
     );
   }
 }
 
-const domContainer = document.querySelector('#root');
-ReactDOM.render(e(LikeButton), domContainer);
+let domContainer = document.querySelector('#root');
+ReactDOM.render(<LikeButton />, domContainer);
