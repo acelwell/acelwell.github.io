@@ -1,10 +1,10 @@
 // import React from 'react';
 // import logo from './logo.svg';
-import '../css/App.css';
-import Header from './Layout/Header';
-import Washing from './components/Washing';
-import Drying from './components/Drying';
-import DisplayResults from './components/DisplayResults';
+// import '../css/App.css';
+// import Header from './Layout/Header';
+// import Washing from './components/Washing';
+// import Drying from './components/Drying';
+// import DisplayResults from './components/DisplayResults';
 
 
 class App extends React.Component{

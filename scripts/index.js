@@ -1,8 +1,11 @@
-'use strict';
+// 'use strict';
+
+// import App from "./App";
+
 // import React from 'react';
 // import ReactDOM from 'react-dom';
 // import '../css/homepage.css';
-import App from './App.js';
+// import App from './App.js';
 // import * as serviceWorker from './serviceWorker';
 
 // ReactDOM.render(<App />, document.getElementById('root'));
