@@ -84,7 +84,7 @@ function drawGraph()
 function drawLine(ctx, x, y)
 {
 
-  ctx.fillRect(x,0,1,y);
+  ctx.fillRect(x, 0, 1, canvas.height - y);
 }
 
 
@@ -310,56 +310,6 @@ async function partition(arr, start, end)
   return pivotIndex;
 }
 
-// async function runHeapSort(arr)
-// {
-//   //console.log("running heap sort");
-//   let n = arr.length;
-//
-//   for (let i = n/2 - 1; i >= 0; i--)
-//   {
-//     //console.log(i);
-//     await heapify(arr, n, i);
-//   }
-//
-//   for(let i = n - 1; i >= 0; i--)
-//   {
-//     await swap(arr, 0, i);
-//     await drawGraph();
-//     await sleep(sleepyTime);
-//
-//     heapify(arr, i, 0);
-//   }
-//
-//   await drawGraph();
-//   await sleep(sleepyTime);
-// }
-//
-// async function heapify(arr, n, i)
-// {
-//
-//   let largest = i;
-//   let l = 2*i + 1;
-//   let r = 2*i + 2;
-//
-//   if(l < n && arr[l] > arr[largest])
-//   {
-//     largest = l;
-//   }
-//
-//   if(r < n && arr[r] > arr[largest])
-//   {
-//     largest = r;
-//   }
-//
-//   if(largest != i)
-//   {
-//     swap(arr, i, largest);
-//     await drawGraph();
-//     await sleep(sleepyTime);
-//
-//     heapify(arr, n, largest);
-//   }
-// }
 
 async function runHeapSort(array)
 {
