@@ -1,0 +1,147 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header
+{
+  background: #6b6b6b;
+}
+
+header > h1
+{
+  color: #4286f4;
+  text-align: center;
+  padding-top: 17px;
+  padding-bottom: 17px;
+
+}
+
+
+
+.navBar
+{
+
+  text-align: center;
+  background-color: #181e1d;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navBar > a
+{
+  padding: 17px;
+  font-size: 17px;
+
+  border-color: white;
+  color: white;
+
+  text-decoration: none;
+}
+
+.navBar a:hover
+{
+  background-color: white;
+  color: #084435;
+}
+
+header > h1
+{
+  color: #4286f4;
+  text-align: center;
+  padding-top: 17px;
+  padding-bottom: 17px;
+
+}
+
+.selectionButtons
+{
+  display: flex;
+  border: black;
+  border-style: dashed;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1%;
+}
+
+.standard
+{
+  border: rebeccapurple;
+  border-style: dashed;
+  border-width: 3px;
+  align-items: center;
+  margin: 1%;
+  padding: 11px;
+}
+
+.ns
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.non-standard
+{
+  border: blue;
+  border-style: dashed;
+  border-width: 3px;
+  margin-left: 11px;
+  padding: 7px;
+  display: flex;
+}
+
+.inner-non-standard
+{
+  padding: 3px;
+
+}
+
+.start-reset
+{
+  align-items: center;
+}
+
+.startButton
+{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: large;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.resetButton
+{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: large;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+
+body
+{
+    background-image: linear-gradient(rgb(214, 214, 214), white);
+    background-repeat: no-repeat;
+    text-align: center;
+    justify-content: center;
+    
+    align-items: center;
+    
+}
+
+.firstBoard
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
